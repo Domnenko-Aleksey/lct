@@ -1,0 +1,35 @@
+.result_prev {
+	width: 80px;
+	cursor: pointer;
+}
+
+.result_svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--color-color_1);
+    margin-bottom: 5px;
+    transition: 0.3s;
+	cursor: pointer;
+}
+
+.result_svg:hover {
+    fill: var(--color-active);
+}
+
+/* --- Restyle --- */
+#dan_show_image {
+	border: 0px !important;
+}
+
+#dan_show_image {
+	max-width: calc(100vw - 6px) !important;
+    max-height: calc(100vh - 6px) !important;
+}
+
+.result_display_none {
+	display: none;
+}
+
+.dan_show_nav {
+	fill: #777777 !important;
+}
